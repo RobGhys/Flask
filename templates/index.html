@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>This is a home test</h1>
+        <h2>Shows name based on value in app.py</h2>
+        <p>Hello, {{content}}</p>
+
+        <h2>Displays values from For loop</h2>
+        {% for i in range(10) %}
+            {% if (i%2) ==0 %}
+            <p>{{ i }}</p>
+            {% endif %}
+        {% endfor %}
+
+        <h2>Displays element of a list from For loop</h2>
+        {% for j in my_list %}
+            <p>{{ j }}</p>
+        {% endfor %}
+
+
+</body>
+</html>
