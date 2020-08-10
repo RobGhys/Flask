@@ -28,9 +28,12 @@
       </div>
     </nav>
 
-    <! -- Content given by the user -->
-    {% block content %}
-    {% endblock %}
+    <! -- Block is displayed to off the left-side of the screen -->
+    <div class="container-fluid">
+        <! -- Content given by the user -->
+        {% block content %}
+        {% endblock %}
+    </div>
 
     <! -- Javascript template from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
